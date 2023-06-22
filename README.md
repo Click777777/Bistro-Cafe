@@ -1,70 +1,54 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Bistro-Cafe</h1>
+<hr><p>Cafe &amp; Ice-cream shop</p><h2>General Information</h2>
+<hr><ul>
+<li>Bistro-Cafe is created as a web app using ReactJs, Tailwind CSS, and animations powered by Framer Motion</li>
+</ul><ul>
+<li>Through this project, I gained valuable experience in building responsive and animated web applications</li>
+</ul><ul>
+<li>I created this app specifically to train and enhance my skills with Framer Motion</li>
+</ul><h2>Technologies Used</h2>
+<hr><ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>React</li>
+</ul><ul>
+<li>Framer-Motion</li>
+</ul><h2>Features</h2>
+<hr><ul>
+<li>I am planning to enhance this app by implementing additional features and adopting an MVC architecture. This will further improve its functionality and structure</li>
+</ul><h2>Screenshots</h2>
+<hr><p><img src="https://github.com/Click777777/Bistro-Cafe/blob/master/src/assets/img/screenShot/bistro-cafe-kappa.vercel.app_(Nest%20Hub%20Max).png" alt=""></p><h2>Setup</h2>
+<hr><p>Following are the requirements to run this project:</p><h5>Steps</h5><ul>
+<li>Node Package Manager (NPM)</li>
+</ul><ul>
+<li>React Js</li>
+</ul><ul>
+<li>Tailwind Css</li>
+</ul><ul>
+<li>Framer Motion</li>
+</ul><h2>Usage</h2>
+<hr><p>To run this project in your device, download the repository and open terminal in your editor and run command…</p><h5>Code Examples</h5><ul>
+<li>First of all ,go to the root directory and then run:</li>
+</ul><p><code>npm i</code></p><ul>
+<li>After that ,to start web app you need to run:</li>
+</ul><p><code>npm run start</code></p><ul>
+<li>You can directly visit at:</li>
+</ul><p><code>https://bistro-cafe-kappa.vercel.app/</code></p><h2>Project Status</h2>
+<hr><p>The initial development phase of the project is complete, and in the next stage, I am determined to add more features and improvements</p><h2>Features that can be added</h2>
+<hr><ul>
+<li>Dynamic Web App (API)</li>
+</ul><ul>
+<li>Advenced search and filter and Fix bug for user experience</li>
+</ul><ul>
+<li>MVC architecture</li>
+</ul><h2>Acknowledgement</h2>
+<hr><ul>
+<li>This project was inspired by Template-Jungle</li>
+</ul><ul>
+<li>https://templatesjungle.com/</li>
+</ul><h2>Contact</h2>
+<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/soe-wunna-htun-6b054323a/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/Click777777"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://www.facebook.com/HenaryVikes/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" style="width: 10%;"></a></p>
