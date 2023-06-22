@@ -42,7 +42,7 @@
 <hr><ul>
 <li>Dynamic Web App (API)</li>
 </ul><ul>
-<li>Advenced search and filter and Fix bug for user experience</li>
+<li>Advanced Search and Filter</li>
 </ul><ul>
 <li>MVC architecture</li>
 </ul><h2>Acknowledgement</h2>
