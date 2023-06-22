@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-body font-secondary text-lg font-medium text-grey;
+  }
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    @apply font-primary italic text-dark;
+  }
+  .h1 {
+    @apply text-6xl font-bold text-white lg:text-8xl;
+  }
+  .h2 {
+    @apply mb-4 text-[46px] font-black leading-[1.1];
+  }
+  .h3 {
+    @apply text-[40px] font-extrabold italic;
+  }
+  .h4 {
+    @apply text-[26px] font-extrabold italic text-white;
+  }
+  .h5 {
+    @apply text-[22px] font-medium text-white;
+  }
+  .pretitle {
+    @apply mb-2 font-secondary text-base font-bold uppercase tracking-[-0.04em] text-accent;
+  }
+  .btn {
+    @apply flex h-14 items-center justify-center rounded-full bg-accent px-[42px] font-secondary text-base font-semibold tracking-[0.02em] text-white outline-none transition-all duration-300 hover:bg-accent-hover;
+  }
+  .input {
+    @apply h-[56px] w-[316px] rounded-full border-2 border-gray-200 bg-white pl-[30px] font-secondary text-base font-semibold text-grey outline-none placeholder:text-grey;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* custom css */
+.underline-animation {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-animation::before,
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #f55304;
+  width: 0;
+  transform: translateX(0%);
+  transition: width 0.3s ease-out, transform 0.3s ease-out;
+  transform-origin: center bottom;
+}
+
+.underline-animation:hover::before,
+.underline-animation:hover::after {
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.underline-animation:hover::before {
+  transition-delay: 0.1s;
+}
+
+.underline-animation:hover::after {
+  transition-delay: 0s;
 }
