@@ -7,18 +7,18 @@ import {
   FaDiscord,
 } from "react-icons/fa";
 // import images
-import AboutImg from "../src/assets/img/about/plate.png";
-import ModelWhiteImg from "../src/assets/img/model-white.png";
-import ModelBlackImg from "../src/assets/img/model-black.png";
-import MenuImg1 from "../src/assets/img/menu/1.png";
-import MenuImg2 from "../src/assets/img/menu/2.png";
-import MenuImg3 from "../src/assets/img/menu/3.png";
-import MenuImg4 from "../src/assets/img/menu/4.png";
-import SignatureImg from "../src/assets/img/team/signature.png";
-import ChefImg from "../src/assets/img/team/chef.png";
-import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
-import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
-import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
+import AboutImg from "../src/assets/imagecompressor/plate-min.png";
+import ModelWhiteImg from "../src/assets/imagecompressor/model-white-min.png";
+import ModelBlackImg from "../src/assets/imagecompressor/model-black-min.png";
+import MenuImg1 from "../src/assets/imagecompressor/1-min.png";
+import MenuImg2 from "../src/assets/imagecompressor/2-min.png";
+import MenuImg3 from "../src/assets/imagecompressor/3-min.png";
+import MenuImg4 from "../src/assets/imagecompressor/4-min.png";
+import SignatureImg from "../src/assets/imagecompressor/signature-min.png";
+import ChefImg from "../src/assets/imagecompressor/chef-min.png";
+import Avatar1 from "../src/assets/imagecompressor/avatar1-min.png";
+import Avatar2 from "../src/assets/imagecompressor/avatar2-min.png";
+import Avatar3 from "../src/assets/imagecompressor/avatar3-min.png";
 
 export const navData = [
   { href: "#home", name: "home" },

@@ -1,5 +1,5 @@
 import React from "react";
-import bgAbout from "../assets/img/body-bg-pattern.png";
+import bgAbout from "../assets/imagecompressor/body-bg-pattern-min.png";
 import { aboutData } from "../data";
 import { motion } from "framer-motion";
 import { plateVariants, staggerContainer, fadeIn } from "../variant";

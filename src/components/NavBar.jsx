@@ -1,4 +1,4 @@
-import headerLogo from "../assets/img/header/logo-white.png";
+import headerLogo from "../assets/imagecompressor/logo-white-min.png";
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeIn } from "../variant";
